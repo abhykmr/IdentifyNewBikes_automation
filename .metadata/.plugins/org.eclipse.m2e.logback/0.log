@@ -1,0 +1,83 @@
+2025-07-05 09:08:20,603 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-07-05 09:16:30,948 [Worker-0: Creating project "IdentifyNewBikes"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IdentifyNewBikes:IdentifyNewBikes:0.0.1-SNAPSHOT @ C:\QEA\com.selenium.hackathon\IdentifyNewBikes\pom.xml.
+2025-07-05 09:16:31,687 [Worker-0: Creating project "IdentifyNewBikes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IdentifyNewBikes/src/main/java
+2025-07-05 09:16:31,691 [Worker-0: Creating project "IdentifyNewBikes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IdentifyNewBikes/src/main/resources
+2025-07-05 09:16:31,695 [Worker-0: Creating project "IdentifyNewBikes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IdentifyNewBikes/src/test/java
+2025-07-05 09:16:31,696 [Worker-0: Creating project "IdentifyNewBikes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IdentifyNewBikes/src/test/resources
+2025-07-05 09:16:32,535 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:16:32,542 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:16:32,546 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:16:32,548 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:19:25,008 [Worker-33: Creating project "IdentifyNewBikesTDD"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IdentifyNewBikesTDD:IdentifyNewBikesTDD:0.0.1-SNAPSHOT @ C:\QEA\com.selenium.hackathon\IdentifyNewBikesTDD\pom.xml.
+2025-07-05 09:19:25,082 [Worker-33: Creating project "IdentifyNewBikesTDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IdentifyNewBikesTDD/src/main/java
+2025-07-05 09:19:25,082 [Worker-33: Creating project "IdentifyNewBikesTDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IdentifyNewBikesTDD/src/main/resources
+2025-07-05 09:19:25,083 [Worker-33: Creating project "IdentifyNewBikesTDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IdentifyNewBikesTDD/src/test/java
+2025-07-05 09:19:25,083 [Worker-33: Creating project "IdentifyNewBikesTDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IdentifyNewBikesTDD/src/test/resources
+2025-07-05 09:19:25,537 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:19:25,539 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:19:25,543 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:19:25,547 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:19:53,493 [Worker-12: Creating project "IdentifyNewBikesBDD"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IdentifyNewBikesBDD:IdentifyNewBikesBDD:0.0.1-SNAPSHOT @ C:\QEA\com.selenium.hackathon\IdentifyNewBikesBDD\pom.xml.
+2025-07-05 09:19:53,561 [Worker-12: Creating project "IdentifyNewBikesBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IdentifyNewBikesBDD/src/main/java
+2025-07-05 09:19:53,562 [Worker-12: Creating project "IdentifyNewBikesBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IdentifyNewBikesBDD/src/main/resources
+2025-07-05 09:19:53,563 [Worker-12: Creating project "IdentifyNewBikesBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IdentifyNewBikesBDD/src/test/java
+2025-07-05 09:19:53,563 [Worker-12: Creating project "IdentifyNewBikesBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IdentifyNewBikesBDD/src/test/resources
+2025-07-05 09:19:53,837 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:19:53,838 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:19:53,841 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:19:53,842 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:21:25,706 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IdentifyNewBikesBDD:IdentifyNewBikesBDD:0.0.1-SNAPSHOT @ C:\QEA\com.selenium.hackathon\IdentifyNewBikesBDD\pom.xml.
+2025-07-05 09:21:26,166 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:26,171 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:21:26,174 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:26,176 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:21:26,564 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:26,566 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:21:26,570 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:26,573 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:21:37,162 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IdentifyNewBikesTDD:IdentifyNewBikesTDD:0.0.1-SNAPSHOT @ C:\QEA\com.selenium.hackathon\IdentifyNewBikesTDD\pom.xml.
+2025-07-05 09:21:37,339 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:37,342 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:21:37,344 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:37,345 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:21:38,508 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:38,509 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:21:38,512 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:38,514 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:21:46,175 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:46,176 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:21:46,179 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:46,180 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:21:54,202 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:54,203 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\QEA\com.selenium.hackathon\IdentifyNewBikesTDD\src\main\resources
+2025-07-05 09:21:54,207 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:21:54,209 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:23:06,914 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IdentifyNewBikes:IdentifyNewBikes:0.0.1-SNAPSHOT @ C:\QEA\com.selenium.hackathon\IdentifyNewBikes\pom.xml.
+2025-07-05 09:23:07,207 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:07,209 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:23:07,213 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:07,215 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:23:08,344 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:08,346 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:23:08,348 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:08,350 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:23:12,137 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:12,138 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:23:12,141 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:12,142 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:23:18,061 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:18,063 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:23:18,066 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:18,067 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:23:23,990 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:23,992 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-05 09:23:23,993 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:23,994 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:23:29,441 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:29,442 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\QEA\com.selenium.hackathon\IdentifyNewBikesBDD\src\main\resources
+2025-07-05 09:23:29,443 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:29,445 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-07-05 09:23:39,144 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:39,145 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\QEA\com.selenium.hackathon\IdentifyNewBikes\src\main\resources
+2025-07-05 09:23:39,147 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-05 09:23:39,148 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
