@@ -1,0 +1,13 @@
+package MainClass;
+
+import Utils.LaunchBrowser;
+
+public class TestInvoke extends LaunchBrowser{
+    public static void main(String[] args) {
+    	try {
+    		
+    	} catch(Exception e) {
+    		e.printStackTrace();
+    	}
+    }
+}

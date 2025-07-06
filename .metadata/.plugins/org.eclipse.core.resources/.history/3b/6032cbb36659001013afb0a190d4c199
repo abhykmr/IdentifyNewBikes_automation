@@ -1,0 +1,29 @@
+package TestClass;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class LoginTest {
+
+    WebDriverWait wait;
+
+    public void clickLoginBtn(WebDriver driver) {
+        // Locating and clicking the login & more button
+         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	WebElement loginBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='forum_login_title_lg']")));
+    	loginBtn.click();
+    }
+
+    public void clickGoogleBtn(WebDriver driver) {
+        // Waiting for and clicking the Google login button
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement googleBtn = driver.findElement(By.xpath("//*[@id=\"myModal3-modal-content\"]/div[1]/div/div[3]/div[6]/div/span[2]"));
+        wait.until(ExpectedConditions.elementToBeClickable(googleBtn));
+        googleBtn.click();
+    }
+}

@@ -1,0 +1,14 @@
+package TestClass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+
+public class LoginTest {
+    public void clickLoginBtn(WebDriver driver) {
+    	// locating and clicking the login&more button
+    	WebElement loginBtn = driver.findElement(By.id("forum_login_cover_image_sm"));
+    	loginBtn.click();
+    }
+}

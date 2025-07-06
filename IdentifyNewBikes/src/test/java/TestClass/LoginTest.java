@@ -1,0 +1,65 @@
+package TestClass;
+
+import java.time.Duration;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class LoginTest {
+
+    WebDriverWait wait;
+    WebDriver driver;
+    
+    public LoginTest(WebDriver driver) {
+    	this.driver = driver;
+    	this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    }
+
+    public void clickLoginBtn() {
+        // Locating and clicking the login & more button  
+    	WebElement loginBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='forum_login_title_lg']")));
+    	loginBtn.click();
+    }
+
+    public void clickGoogleBtn() {
+        // Waiting for and clicking the Google login button
+    	WebElement googleLogin = wait.until(
+    	    ExpectedConditions.elementToBeClickable(By.xpath("//div[@data-track-label='Popup_Login/Register_with_Google']"))
+    	);
+    	googleLogin.click();
+    }
+    
+    public void setEmailField() {
+        System.out.println("Waiting for Google login window...");
+
+        String parentWindow = driver.getWindowHandle();
+
+
+        // Switch to the new window
+        Set<String> allWindows = driver.getWindowHandles();
+        for (String windowHandle : allWindows) {
+            if (!windowHandle.equals(parentWindow)) {
+                driver.switchTo().window(windowHandle);
+                break;
+            }
+        }
+        
+
+        System.out.println("Entering email...");
+        WebElement emailField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("identifierId")));
+        emailField.sendKeys("abhay@gmail.com");
+
+        System.out.println("Clicking 'Next'...");
+        WebElement nextBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[text()='Next']")));
+        nextBtn.click();
+        
+        String result = driver.findElement(By.xpath("//h1[@id='headingText']//span")).getText();
+        System.out.println(result);
+    }
+
+
+}

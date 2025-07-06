@@ -1,0 +1,17 @@
+package Utils;
+
+public class LauchBrowser {
+    public static WebDriver getBrowser(String browser, String baseUrl) {
+    	public static driver;
+    	try {
+        	DriverSetup ds = new DriverSetup();
+        	driver = ds.getDriver(browser);
+        	driver.manage().window().maximize();
+        	driver.get(baseUrl);
+        } catch(Exception e) {
+        	e.printStackTrace();
+        }
+    	
+    	return driver;
+    }
+}

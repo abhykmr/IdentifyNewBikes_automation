@@ -1,0 +1,52 @@
+package TestClass;
+
+import java.time.Duration;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class LoginTest {
+
+    WebDriverWait wait;
+    WebDriver driver;
+    
+    public LoginTest(WebDriver driver) {
+    	this.driver = driver;
+    	this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    }
+
+    public void clickLoginBtn() {
+        // Locating and clicking the login & more button
+         
+    	WebElement loginBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='forum_login_title_lg']")));
+    	loginBtn.click();
+    }
+
+    public void clickGoogleBtn() {
+        // Waiting for and clicking the Google login button
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	WebElement googleLogin = wait.until(
+    	    ExpectedConditions.elementToBeClickable(By.xpath("//div[@data-track-label='Popup_Login/Register_with_Google']"))
+    	);
+    	googleLogin.click();
+    }
+    
+    public void setEmailField() {
+    	// locate the email field in the new window and set the and click next button
+    	String parentWindow = driver.getWindowHandle();
+    	Set<String> allWindows = driver.getWindowHandles();
+
+    	for (String windowHandle : allWindows) {
+    	    if (!windowHandle.equals(parentWindow)) {
+    	        driver.switchTo().window(windowHandle);
+    	        break;
+    	    }
+    	}
+    	driver.findElement(By.id("identifierId")).sendKeys("abhay@gmail.com");
+        driver.findElement(By.id("//*[text()='Next']")).click();
+    }
+}

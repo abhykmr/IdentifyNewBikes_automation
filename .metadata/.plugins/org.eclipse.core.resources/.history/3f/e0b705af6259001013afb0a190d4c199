@@ -1,0 +1,31 @@
+package MainClass;
+
+import java.time.format.TextStyle;
+import java.util.concurrent.StructuredTaskScope;
+
+import org.openqa.selenium.WebDriver;
+
+import com.google.common.util.concurrent.AbstractScheduledService;
+
+import TestClass.*;
+import Utils.LaunchBrowser;
+
+public class TestInvoke extends LaunchBrowser{
+    public static WebDriver driver;
+    public static String baseUrl = "https://zigwheels.com/";
+    LoginTest loginTest = new LoginTest();
+    
+
+    public static void main(String[] args) {
+        try {
+            driver =  new  LaunchBrowser().getBrowser("chrome", baseUrl);
+            
+            //click on login button
+            LoginTest.clickLoginBtn(driver);
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+

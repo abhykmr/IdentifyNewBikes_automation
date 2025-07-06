@@ -1,0 +1,19 @@
+package MainClass;
+
+import org.openqa.selenium.WebDriver;
+import Utils.LaunchBrowser;
+
+public class TestInvoke extends LaunchBrowser{
+    public static WebDriver driver;
+    public static String baseUrl = "https://zigwheels.com/";
+
+    public static void main(String[] args) {
+        try {
+            driver = LaunchBrowser().getBrowser("chrome", baseUrl);
+            // You can now interact with the page using driver
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+

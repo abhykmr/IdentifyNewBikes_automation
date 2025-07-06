@@ -1,0 +1,35 @@
+package TestClass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+
+public class UpcomingBikes {
+
+	 WebDriver driver;
+	 JavascriptExecutor js; 
+	 public UpcomingBikes(WebDriver driver) {
+		this.driver = driver;
+		this.js = (JavascriptExecutor) driver;
+	}
+	 
+//	 public void clickOnNewBikes() {
+//		 // locate and click on the new Bike 
+//		 driver.findElement(By.xpath("//*[@id=\"headerNewVNavWrap\"]/nav/ul/li[3]/a")).click();
+//	 }
+	 
+	 public void clickOnUpcoming() {
+		 // locate and click on the new Bike 
+		WebElement upcomingElement = driver.findElement(By.xpath("//*[@data-track-label='upcoming-bikes-tab']"));
+		js.executeScript("arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });", upcomingElement);
+		upcomingElement.click();
+	 }
+	 public void clickOnAllUpcoming() {
+		 // locate and click on the new Bike 
+		 WebElement allUpcomingElement = driver.findElement(By.xpath("//*[@title='All Upcoming Bikes']"));
+		 js.executeScript("arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });", allUpcomingElement);
+		 allUpcomingElement.click();
+	 }
+}

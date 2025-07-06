@@ -1,0 +1,21 @@
+package TestClass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+
+public class LoginTest {
+    public void clickLoginBtn(WebDriver driver) {
+    	// locating and clicking the login&more button
+    	WebElement loginBtn = driver.findElement(By.id("forum_login_cover_image_sm"));
+    	loginBtn.click();
+    }
+    
+    public void clickGoogleBtn(WebDriver driver) {
+    	// locating and clicking the login&more button
+    	WebElement googleBtn = driver.findElement(By.xpath("//*[@id=\"myModal3-modal-content\"]/div[1]/div/div[3]/div[6]/div/span[2]"));
+    	googleBtn.click();
+    }
+}
+ 

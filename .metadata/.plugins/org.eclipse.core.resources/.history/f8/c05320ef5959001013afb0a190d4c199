@@ -1,0 +1,26 @@
+package Utils;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import Utils.WebDriverException;
+
+public class DriverSetup extends WebDriverException {
+     public static WebDriver getDriver(String browser)  {
+    	 browser = browser.toLowerCase().trim();
+    	 WebDriver driver;
+    	 
+    	 if(browser.equals("chrome")) {
+    		 driver = new ChromeDriver();
+    	 } else if(browser.equals("edge")) {
+    		 driver = new EdgeDriver();
+    	 } else if(browser.equals("firefox")) {
+    		 driver = new FirefoxDriver();
+    	 } else {
+    		 throw new WebDriverException("Undefine browser Name!");
+    	 }
+    	 
+    	 return driver;
+     }
+}

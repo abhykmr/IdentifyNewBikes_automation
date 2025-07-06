@@ -1,0 +1,18 @@
+package TestClass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+
+public class UpcomingBikes {
+
+	 WebDriver driver;
+	 public UpcomingBikes(WebDriver driver) {
+		this.driver = driver;
+	}
+	 
+	 public void clickOnNewBikes() {
+		 // locate and click on the new Bike 
+		 driver.findElement(By.xpath("//*[@id=\"headerNewVNavWrap\"]/nav/ul/li[3]/a")).click();
+	 }
+}
